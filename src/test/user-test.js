@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const { Events } = require('discord.js');
-const client = require('./../app');
+const client = require('../../app');
 const expect = require('chai').expect;
 
 describe('#UserTests', () => {

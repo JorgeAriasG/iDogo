@@ -12,7 +12,7 @@ module.exports = [
                 .setRequired(true)),
 
         async execute(interaction) {
-            const userInput = await interaction.options.getString('input');
+            const userInput = await interaction.options.getString('texto');
             console.log(`${interaction.user.username} request: ${userInput}`);
             await interaction.reply(`Generando tu respuesta de: **${userInput}**`);
             const res = await postInput(userInput);

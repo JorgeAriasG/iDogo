@@ -1,4 +1,4 @@
-const { openApi } = require('../config.json');
+const { openApi } = require('../../config.json');
 const axios = require('axios');
 
 module.exports = {

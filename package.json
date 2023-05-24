@@ -1,9 +1,10 @@
 {
-  "name": "perrogpt",
+  "name": "idogo",
   "version": "0.0.1",
-  "description": "PerroGPT is a discord bot who make request to the ChatGPT API to integrate with their AI system.",
+  "description": "iDogo is a discord bot who make request to the ChatGPT API to integrate with their AI system.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha --reporter spec"
   },
   "author": "Jorge Arias",
