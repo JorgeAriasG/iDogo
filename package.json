@@ -1,6 +1,6 @@
 {
   "name": "idogo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "iDogo is a discord bot who make request to the ChatGPT API to integrate with their AI system.",
   "main": "app.js",
   "scripts": {
